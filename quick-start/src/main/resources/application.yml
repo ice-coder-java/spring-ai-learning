@@ -10,3 +10,4 @@ spring:
       chat:
         options:
           model: qwen3.7-max
+#          multi-model: true
