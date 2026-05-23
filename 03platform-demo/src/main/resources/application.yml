@@ -1,0 +1,13 @@
+spring:
+  ai:
+    deepseek:
+      api-key: ${DEEPSEEK_API_KEY}
+      chat:
+        options:
+          model: deepseek-v4-flash
+    dashscope:
+      api-key: ${DASH_SCOPE_API_KEY}
+      chat:
+        options:
+          model: qwen3.7-max
+#          multi-model: true
