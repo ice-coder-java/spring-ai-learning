@@ -5,3 +5,12 @@ spring:
       chat:
         options:
           model: qwen3.7-max
+
+logging:
+  level:
+    org:
+      springframework:
+        ai:
+          chat:
+            client:
+              advisor: DEBUG
