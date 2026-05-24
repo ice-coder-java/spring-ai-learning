@@ -32,6 +32,7 @@
         <module>quick-start</module>
         <module>02chat-client</module>
         <module>03platform-demo</module>
+        <module>04structured</module>
     </modules>
 
     <properties>

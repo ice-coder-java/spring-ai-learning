@@ -5,6 +5,24 @@ spring:
       chat:
         options:
           model: qwen3.7-max
+    chat:
+      memory:
+        repository:
+          jdbc:
+            initialize-schema: always
+            schema: classpath:/schema-mysql.sql
+    memory:
+      redis:
+        host: 192.168.100.128
+        port: 6379
+        timeout: 5000
+        password:
+  datasource:
+    username: root
+    password: 1234
+    url: jdbc:mysql://localhost:3306/springai?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
 
 logging:
   level:
