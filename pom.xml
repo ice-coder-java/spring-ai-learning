@@ -33,6 +33,7 @@
         <module>02chat-client</module>
         <module>03platform-demo</module>
         <module>04structured</module>
+        <module>05tools</module>
     </modules>
 
     <properties>
